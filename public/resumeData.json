@@ -52,7 +52,7 @@
             "description": "Redesigned shipping configuration flow for GoDaddy’s Online Store, improving product level shipping selections for merchants – React, Ruby on Rails, MySQL."
         }],
         "skills": [{
-                "name": "ReactJS",
+                "name": "Ruby on Rails",
                 "level": "90%"
             },
             {
@@ -60,21 +60,24 @@
                 "level": "90%"
             },
             {
-                "name": "HTML5&CSS",
-                "level": "90%"
+                "name": "ReactJS",
+                "level": "80%"
             },
             {
                 "name": "MongoDB",
                 "level": "70%"
-            },
-            {
-                "name": "Ruby on Rails",
-                "level": "60%"
             }
         ]
     },
     "portfolio": {
         "projects": [{
+                "title": "TwoFold",
+                "category": "Investor Pitch for TwoFold.",
+                "image": "twofold.png",
+                "url": "https://docs.google.com/presentation/d/121HGt7ox8r-nwRIRqe8YWOZfS2gqUiPwZEDC7po3Qno/edit?usp=sharing",
+                "date": "Spring 2020"
+            },
+            {
                 "title": "TrashLess",
                 "category": "Concept design for Trashless.",
                 "image": "trashless.png",
