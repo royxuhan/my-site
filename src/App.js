@@ -8,12 +8,12 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import About from './Components/About'
 import Portfolio from './Components/Portfolio'
+import Artwork from './Components/Artwork'
 
 class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      foo: 'bar',
       resumeData: {}
     }
 
@@ -21,7 +21,7 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname + window.location.search)
   }
 
-  // fetch personal data and populate input hash 
+  // fetch personal data and populate input hash
   getResumeData () {
     $.ajax({
       url: '/resumeData.json',
@@ -36,7 +36,7 @@ class App extends Component {
     })
   }
 
-  // fetch resume data right after the app is initialized 
+  // fetch resume data right after the app is initialized
   componentDidMount () {
     this.getResumeData()
   }
@@ -48,6 +48,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Portfolio data={this.state.resumeData.portfolio} />
+        <Artwork data={this.state.resumeData.artwok} />
         <Footer data={this.state.resumeData.main} />
       </div>
     )

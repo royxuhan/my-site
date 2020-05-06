@@ -38,43 +38,7 @@
       }
     ]
   },
-  "resume": {
-    "skillmessage": "Skills section",
-    "education": [
-      {
-        "school": "Carnegie Mellon University",
-        "degree": "B.S. Information Systems",
-        "graduated": "May 2021",
-        "description": "GPA: 3.73/4.0"
-      }
-    ],
-    "work": [
-      {
-        "company": "GoDaddy",
-        "title": "Software Engineering Intern",
-        "years": "May 2019 - August 2019",
-        "description": "Redesigned shipping configuration flow for GoDaddy’s Online Store, improving product level shipping selections for merchants – React, Ruby on Rails, MySQL."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Ruby on Rails",
-        "level": "90%"
-      },
-      {
-        "name": "Python",
-        "level": "90%"
-      },
-      {
-        "name": "ReactJS",
-        "level": "80%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "70%"
-      }
-    ]
-  },
+
   "portfolio": {
     "projects": [
       {
@@ -153,6 +117,17 @@
         "image": "pysnap.png",
         "url": "https://github.com/royxuhan/PySnap",
         "date": "Spring 2018"
+      }
+    ]
+  },
+
+  "artwork": {
+    "pieces": [
+      {
+        "image": "1.jpg"
+      },
+      {
+        "image": "2.jpg"
       }
     ]
   }

@@ -2,7 +2,7 @@
 /* Modified from Styleshout.com */
 
 /* ------------------------------------------------------------------ */
-/* a. General Styles
+/* General Styles
 /* ------------------------------------------------------------------ */
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 /* ------------------------------------------------------------------ */
-/* b. Header Styles
+/* Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
@@ -185,7 +185,7 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* c. About Section
+/* About Section
 /* ------------------------------------------------------------------ */
 
 #about {
@@ -246,7 +246,7 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
@@ -426,7 +426,61 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* Artwork
+/* ------------------------------------------------------------------ */
+
+#artwork {
+  background: #feffff;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+.slide-container {
+  width: 80%;
+  margin: auto;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+.each-fade h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+
+/* ------------------------------------------------------------------ */
+/* Footer
 /* ------------------------------------------------------------------ */
 
 footer {
