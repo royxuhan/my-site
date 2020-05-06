@@ -46,6 +46,7 @@ class Artwork extends Component {
 
     return (
       <section id='artwork'>
+        <h1>Artwork</h1>
         <div className='slide-container'>
           <Slide {...properties}>
             <div className='each-slide'>

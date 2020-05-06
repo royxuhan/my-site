@@ -434,6 +434,14 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: 60px;
 }
+#artwork h1 {
+  font: 36px/24px "Amatic SC", cursive;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  /* margin-bottom: 48px; */
+  color: #333333;
+}
 
 .slide-container {
   width: 80%;
